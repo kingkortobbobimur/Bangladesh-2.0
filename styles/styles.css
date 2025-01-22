@@ -68,7 +68,7 @@ header .sign-in-button {
     border-radius: 5px;
 }
 
-.enb-button:hover{
+.enb-button:hover {
     background-color: gray;
 }
 
@@ -185,3 +185,77 @@ p {
 .yellow {
     background-color: #F7EBCF;
 }
+
+/* yunus quote */
+
+.quote-of-yunus {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: 20px;
+}
+
+.quote-text {
+    font-size: 14px;
+}
+
+.quote-author {
+    font-size: 20px;
+    color: black;
+}
+
+.author-position {
+    font-size: 14px;
+}
+
+.quote-img {
+    "position: absolute;
+    top: 10px;
+    left: 10px;
+}
+
+
+/* table */
+.opinion {
+    width: 1280px;
+    margin: 0 auto;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h1 {
+    text-align: left;
+    margin-bottom: 20px;
+    font-size: 40px;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    border-style: inset;
+}
+
+th, td {
+    padding: 15px;
+    text-align: left;
+    border-bottom: 5px solid #ddd;
+}
+
+th {
+    background-color: #e6f9d4;
+}
+
+select {
+    padding: 10px;
+    border: 5px solid;
+    border-radius: 5px;
+}
+
+/* news section */
+  
+.news-container {
+    display: flex;
+  }
+  
+ 
