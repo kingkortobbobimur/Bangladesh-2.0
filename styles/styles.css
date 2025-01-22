@@ -34,6 +34,10 @@ header .sign-in-button {
     font-weight: 600;
 }
 
+.sign-in-button:hover {
+    background-color: gray;
+}
+
 /* Hero Poster */
 .hero-section {
     display: flex;
@@ -64,10 +68,16 @@ header .sign-in-button {
     border-radius: 5px;
 }
 
+.enb-button:hover{
+    background-color: gray;
+}
+
 /* pillar section */
 .pillar-heading {
     font-size: 40px;
+    text-align: left;
 }
+
 .pillars-container {
     display: flex;
     gap: 20px;
@@ -75,7 +85,7 @@ header .sign-in-button {
     justify-content: space-around;
     background-color: #d3ece1;
     border-radius: 10px;
-    
+
 }
 
 .pillars {
@@ -83,6 +93,95 @@ header .sign-in-button {
     border-radius: 5px;
     text-align: center;
     box-shadow: 10px 6px 50px 0px rgba(0, 0, 0, 0.06);
-    
-    
+
+    /* vision section */
+}
+
+.visions {
+    max-width: 1200px;
+    margin: 10 px auto;
+    padding: 20px;
+    text-align: left;
+}
+
+.vision-heading {
+
+    font-size: 40px;
+    text-align: left;
+
+}
+
+p {
+    font-size: 24px;
+    margin-bottom: 30px;
+}
+
+/* card section */
+
+.cards {
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.card {
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    flex: 1;
+    max-width: 320px;
+    text-align: left;
+    transition: transform 0.3s ease;
+}
+
+.card:hover {
+    transform: translateY(-5px);
+}
+
+.card h3 {
+    font-size: 1.3rem;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.card p {
+    font-size: 1rem;
+    margin-bottom: 15px;
+    color: #666;
+}
+
+.card .icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 15px;
+}
+
+.card a {
+    display: inline-block;
+    margin-top: 10px;
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 0.95rem;
+    font-weight: bold;
+}
+
+.card a:hover {
+    background-color: gray;
+}
+
+.blue {
+    background-color: #5490F5;
+}
+
+.green {
+    background-color: #C6E4D6;
+}
+
+.yellow {
+    background-color: #F7EBCF;
 }
