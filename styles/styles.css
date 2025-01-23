@@ -257,18 +257,78 @@ select {
 
 /* news section */
 
+.news-card {
+    display: flex;
+    background-color: white;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    max-width: 900px;
+    margin: auto;
+}
+
+.image-container img {
+    width: 100%;
+    max-width: 400px;
+    height: auto;
+    display: block;
+}
+
+.content-container {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.source {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.source .logo {
+    height: 20px;
+    margin-right: 8px;
+}
+
+.date-time {
+    font-size: 14px;
+    margin-bottom: 15px;
+}
+
+.description {
+    font-size: 16px;
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+
+.read-more-btn {
+    background-color: #c8e6c9;
+    border: none;
+    padding: 15px 30px;
+    border-radius: 5px;
+    font-size: 18px;
+    cursor: pointer;
+}
+
+.read-more-btn:hover {
+    background-color: gray;
+}
+
 /* donation section */
 .donation {
     width: 80%;
     margin: 0 auto;
 }
 
-h1 {
+.donation-heading {
     text-align: center;
     margin-bottom: 20px;
 }
 
-p {
+.donation-paragraph{
     text-align: center;
     margin-bottom: 30px;
 }
